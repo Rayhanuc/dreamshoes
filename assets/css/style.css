@@ -131,3 +131,86 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*hero-area css end*/
+
+
+/*product area css start*/
+.product-1 {
+    background-image: url(../img/product1.jpg);
+}
+.product-2 {
+    background-image: url(../img/product2.jpg);
+}
+.product-3 {
+    background-image: url(../img/product3.jpg);
+}
+.product-4 {
+    background-image: url(../img/product4.jpg);
+}
+.product-5 {
+    background-image: url(../img/product5.jpg);
+}
+.product-6 {
+    background-image: url(../img/product6.jpg);
+}
+
+.product-section {
+    padding: 50px 0;
+}
+
+
+.single-product {
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 2px 3px 3px #dfdfdf;
+    position: relative;
+}
+
+.product-section {
+    padding: 50px 0;
+}
+
+.product-details {
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.product-details .product-org, .product-details .total-product-color {
+    color: #797979;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.product-details .product-name, .product-details .product-price {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    color: #363636;
+}
+
+.single-product .love-sign {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: #ff0000;
+}
+
+.single-product .product-type {
+    position: absolute;
+    bottom: 14px;
+    background: #ffffff;
+    padding: 4px 8px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    transform: rotate(-90deg);
+    border: 1px solid #f5f4f4;
+}
+
+.space-40 {
+    height: 40px;
+}
+/*product area css end*/
