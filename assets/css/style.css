@@ -230,3 +230,90 @@ a:hover {
     height: 40px;
 }
 /*product area css end*/
+
+/*product pagination css start*/
+.pagination-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pagination-area ul li {
+    display: inline-block;
+    padding: 13px;
+}
+
+.pagination-area ul li a {
+    color: #222;
+}
+
+.pagination-area .navprev a, .pagination-area .navnext a {
+    border: 1px solid #ff63bf;
+    border-radius: 50px;
+    padding: 7px 19px;
+    transition: .3s;
+}
+
+.pagination-area .navprev a:hover, .pagination-area .navnext a:hover {
+    background: #e84ea9;
+    color: #fff;
+}
+
+.pagination-area .active-page {
+    font-weight: 700;
+    padding: 10px 16px;
+    border: 1px solid #656565;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.pagination-area .total-page {
+    padding-left: 0;
+    padding-right: 15px;
+    font-size: 15px;
+    color: #818080;
+}
+
+.pagination-area {
+    padding: 40px 0;
+}
+/*product pagination css end*/
+
+/*subcribe area css start*/
+.subscribe-area h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #363636;
+    padding: 15px 0;
+}
+
+.subscribe-area input {
+    border: 2px solid #ff63bf;
+    padding: 7px 10px;
+    border-radius: 3px;
+    color: darkgreen;
+}
+
+.subscribe-area .subscribe-btn {
+    color: #fff;
+    padding: 9px 16px;
+    background: #ff63bf;
+    border: none;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 17px;
+    border-radius: 4px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    transition: .3s;
+}
+
+.subscribe-area .subscribe-btn:hover {
+    background: #e84ea9;
+}
+
+.subscribe-area {
+    padding-bottom: 40px;
+}
+/*subcribe area css end*/
