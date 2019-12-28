@@ -47,21 +47,23 @@ a:hover {
     color: #5c6a73;
     font-weight: 700;
     text-decoration: none;
-    font-size: 13px;
-    padding: 5px 15px;
+    font-size: 11px;
+    padding: 5px 10px;
     border: 2px solid transparent;
     transition: 0.4s;
     border-radius: 50px;
+    text-transform: uppercase;
 }
 
 .mainmenu-area .search-icon {
     background: #a8a8a8;
     padding: 17px 19px;
+    margin-left: 12px;
 }
 
 .mainmenu-area ul li a:hover {
     border: 2px solid #dc08a3;
-    padding: 5px 15px;
+    padding: 5px 10px;
     border-radius: 50px;
 }
 
@@ -165,7 +167,7 @@ a:hover {
 }
 
 .single-product-details:hover {
-    border: 1px solid #4a4a4a;
+    border: 1px solid #ff63bf;
 }
 
 .single-product-details {
@@ -317,3 +319,134 @@ a:hover {
     padding-bottom: 40px;
 }
 /*subcribe area css end*/
+
+
+/*Footer section css start*/
+.footer-menu-area {
+    background: #3c122b;
+    padding: 40px 30px;
+    margin-top: 40px;
+}
+
+.footer-single-item .footer-heading {
+    color: #fff;
+    text-transform: uppercase;
+    z-index: 1;
+    margin-bottom: 20px;
+}
+
+.footer-single-item {
+    margin-bottom: 20px;
+}
+
+.footer-heading h3 {
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+}
+
+.menu-item-area ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-item-area ul li a {
+    color: #c7c7c7;
+    font-size: 12px;
+    padding-left: 15px;
+    display: block;
+}
+
+.menu-item-area ul li a:hover {
+    color: #fffdfd;
+}
+
+.footer-heading .col-line {
+    width: 85%;
+    height: 1px;
+    background: #ff63bf;
+    position: absolute;
+}
+
+.menu-item-social ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-item-social ul li {
+    display: inline-block;
+}
+
+.menu-item-social ul li a {
+    color: #fff;
+    display: inline-block;
+    border: 1px solid #fff;
+    width: 34px;
+    height: 35px;
+    text-align: center;
+    line-height: 33px;
+    border-radius: 50px;
+}
+
+.menu-item-social ul li a:hover {color: #ff63bf;border: 1px solid #ff63bf;}
+
+.menu-item-area ul li {
+    position: relative;
+    padding-bottom: 8px;
+}
+
+.menu-item-area ul li:before {
+    position: absolute;
+    left: 0px;
+    top: -18px;
+    content: "-";
+    color: #ff63bf;
+    font-size: 32px;
+}
+
+.copyright-area ul {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 11px;
+    color: #cacaca;
+}
+
+.copyright-area ul li {
+    display: inline-block;
+    padding-right: 13px;
+    position: relative;
+    padding-left: 15px;
+}
+
+.copyright-area ul li a {
+    color: #929292;
+}
+
+.copyright-area {
+    background: #290a1c;
+    padding: 15px 0;
+}
+
+.copyright-area ul li:last-child {
+    padding-right: 0;
+}
+
+.copyright-area ul li:after {
+    position: absolute;
+    right: -5px;
+    content: "|";
+}
+
+.copyright-area ul li:last-child:after {
+    content: none;
+}
+
+.copyright-text ul li a:hover {
+    color: #fff;
+}
+
+/*Footer section css end*/
