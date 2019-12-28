@@ -15,6 +15,14 @@ a:hover {
     text-decoration: none;
 }
 
+.header-area {
+    background: #e8e8e8;
+}
+
+.logo-area {
+    margin-left: 12px;
+}
+
 .product-section a {
     color:#333;
 }
@@ -86,7 +94,7 @@ a:hover {
 }
 
 .logo-area a {
-    padding: 8px 15px;
+    padding: 8px 7px;
     border: 2px solid transparent;
     transition: 0.4s;
     border-radius: 50px;
@@ -95,7 +103,7 @@ a:hover {
 .logo-area a:hover {
     border: 2px solid #dc08a3;
     border-radius: 50px;
-    padding: 8px 15px;
+    padding: 8px 7px;
 }
 /*Main menu css end*/
 
@@ -116,7 +124,7 @@ a:hover {
 	background-image: url(../img/hero-bg.jpg);
 }
 
-.hero-area {
+.hero-area-section {
     background-position: center;
     background-color: #222;
     background-size: cover;
@@ -322,10 +330,12 @@ a:hover {
 
 
 /*Footer section css start*/
-.footer-menu-area {
+.footer-top-area {
     background: #3c122b;
-    padding: 40px 30px;
     margin-top: 40px;
+}
+.footer-menu-area {
+    padding: 40px 0px;
 }
 
 .footer-single-item .footer-heading {
@@ -426,10 +436,15 @@ a:hover {
     color: #929292;
 }
 
-.copyright-area {
+.footer-bottom-area {
     background: #290a1c;
     padding: 15px 0;
 }
+
+/*.copyright-area {
+    background: #290a1c;
+    padding: 15px 0;
+}*/
 
 .copyright-area ul li:last-child {
     padding-right: 0;
