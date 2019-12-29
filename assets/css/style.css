@@ -305,6 +305,10 @@ a:hover {
     color: darkgreen;
 }
 
+.subscribe-area input::placeholder {
+    color: #adadad;
+}
+
 .subscribe-area .subscribe-btn {
     color: #fff;
     padding: 9px 16px;
