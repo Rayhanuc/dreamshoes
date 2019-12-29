@@ -302,11 +302,11 @@ a:hover {
     border: 2px solid #ff63bf;
     padding: 7px 10px;
     border-radius: 3px;
-    color: darkgreen;
 }
 
 .subscribe-area input::placeholder {
-    color: #adadad;
+    color: #8e8e8e;
+    opacity: 1;
 }
 
 .subscribe-area .subscribe-btn {
@@ -445,10 +445,9 @@ a:hover {
     padding: 15px 0;
 }
 
-/*.copyright-area {
-    background: #290a1c;
-    padding: 15px 0;
-}*/
+.copyright-area ul li:first-child {
+    padding-left: 0;
+}
 
 .copyright-area ul li:last-child {
     padding-right: 0;
