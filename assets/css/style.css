@@ -17,6 +17,7 @@ a:hover {
 
 .header-area {
     background: #e8e8e8;
+    overflow: hidden;
 }
 
 .logo-area {
@@ -48,7 +49,6 @@ a:hover {
 
 .mainmenu-area ul li {
     display: inline-block;
-    /*padding: 17px;*/
 }
 
 .mainmenu-area ul li a {
@@ -110,7 +110,7 @@ a:hover {
 /*hero-area css start*/
 .hero-text {
     text-align: center;
-    padding: 90px 0;
+    padding: 105px 0;
 }
 
 .hero-text h2 {
@@ -120,9 +120,11 @@ a:hover {
     line-height: 1.2;
 }
 
-.hero-bg {
-	background-image: url(../img/hero-bg.jpg);
-}
+.hero-bg-1 {background-image: url(../img/hero-bg-1.jpg);}
+.hero-bg-2 {background-image: url(../img/hero-bg-2.jpg);}
+.hero-bg-3 {background-image: url(../img/hero-bg-3.jpg);}
+.hero-bg-4 {background-image: url(../img/hero-bg-4.jpg);}
+.hero-bg-5 {background-image: url(../img/hero-bg-5.jpg);}
 
 .hero-area-section {
     background-position: center;
@@ -145,6 +147,52 @@ a:hover {
 
 .shopnow-btn:hover {
     background: #e84ea9;
+}
+
+.single-slide-item {
+    position: relative;
+    z-index: 1;
+}
+
+.single-slide-item:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    content: "";
+    opacity: .4;
+    z-index: -1;
+}
+
+.homepage-slides .owl-nav button {
+    position: absolute;
+    left: 50px;
+    top: 50%;
+    line-height: 40px;
+    margin-top: -20px;
+    font-size: 60px;
+}
+
+.homepage-slides .owl-nav button {
+    font-size: 35px;
+    color: #fff;
+}
+
+.homepage-slides .owl-nav button svg:hover {
+    color: #d2d2d2;
+}
+
+.homepage-slides .owl-nav button.owl-next {
+    left: auto;
+    right: 50px;
+    position: absolute;
+}
+
+.homepage-slides .owl-nav {
+    font-size: 35px;
+    color: #fff;
 }
 
 /*hero-area css end*/
