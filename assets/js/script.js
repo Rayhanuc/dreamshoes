@@ -5,6 +5,8 @@ jQuery(document).ready(function($) {
 		nav: true,
 		dots: true,
 		navText: ["<i class='fas fa-chevron-left'></i>", "<i class='fas fa-chevron-right'></i>"],
-		autoplay: true
+		autoplay: true,
+		navSpeed:1200,
+		autoplaySpeed:1200,
 	});
 });
