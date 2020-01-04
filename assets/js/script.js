@@ -8,5 +8,6 @@ jQuery(document).ready(function($) {
 		autoplay: true,
 		navSpeed:1200,
 		autoplaySpeed:1200,
+		animateOut: 'fadeOut'
 	});
 });
