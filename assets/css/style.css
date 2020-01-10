@@ -17,7 +17,42 @@ a:hover {
 
 .header-area {
     background: #e8e8e8;
-    overflow: hidden;
+}
+
+
+
+
+.header-area .row {
+    margin-right: 0;
+}
+
+.header-area .col-md-12 {
+    padding-right: 0;
+}
+
+.header-area .col-md-9 {
+    padding-right: 0;
+}
+
+.mainmenu-area li ul {
+    position: absolute;
+    z-index: 10;
+}
+
+.mainmenu-area li ul {
+    text-align: left;
+    width: 136px;
+    background: #290a1c;
+    top: 64px;
+    padding-bottom: 10px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s;
+}
+
+.mainmenu-area li:hover ul {
+    visibility: visible;
+    opacity: 1;
 }
 
 .logo-area {
@@ -38,9 +73,6 @@ a:hover {
     max-width: 215px;
 }
 
-/*.logo-area a {
-    padding: 18px 0;
-}*/
 .mainmenu-area ul {
     margin: 0;
     padding: 0;
@@ -61,6 +93,10 @@ a:hover {
     transition: 0.4s;
     border-radius: 50px;
     text-transform: uppercase;
+}
+
+.mainmenu-area ul li a .drop-icon {
+    padding-left: 2px;
 }
 
 .mainmenu-area .search-icon {
@@ -89,6 +125,17 @@ a:hover {
     color: #e6e6e6;
 }
 
+.mainmenu-area li ul li a:hover {
+    border: none;
+    color: #f792c7;
+}
+
+.mainmenu-area li ul li a {
+    border: none;
+    transition: .3s;
+    color: #fff;
+}
+
 .topmenu-area {
     border-bottom: 1px solid #373737;
 }
@@ -105,6 +152,79 @@ a:hover {
     border-radius: 50px;
     padding: 8px 7px;
 }
+
+/*2nd level dropdown menu css start*/
+
+.mainmenu-area li:hover ul ul {
+    visibility: hidden;
+    opacity: 0;
+}
+.mainmenu-area li ul li ul {
+    visibility: hidden;
+    opacity: 0;
+}
+.mainmenu-area ul ul li ul {
+    left: 136px;
+    top: 30px;
+}
+.mainmenu-area ul ul li:hover ul {
+    top: 30px;
+    visibility: visible;
+    opacity: 1;
+}
+
+.mainmenu-area li ul li span {
+    padding-left: 58px;
+    font-size: 13px;
+}
+/*2nd level dropdown menu css end*/
+
+/*Mega menu css start*/
+.mainmenu-area li.mega-menu ul li.mega-menu-area {
+    width: 529px;
+    height: 330px;
+    background: #1f0713;
+    padding: 10px 25px 10px 25px;
+    left: -250px;
+}
+
+.mainmenu-area li.mega-menu ul li.mega-menu-area .single-mega-item {
+    width: 200px;
+}
+
+.mainmenu-area li.mega-menu ul {
+    background: transparent;
+    padding-top: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s;
+}
+
+
+.mainmenu-area li.mega-menu:hover ul {
+    visibility: visible;
+    opacity: 1;
+}
+
+.mainmenu-area li.mega-menu ul li.mega-menu-area .single-mega-item ul {
+    left: 0;
+    padding: 10px;
+}
+
+.mainmenu-area li.mega-menu ul li.mega-menu-area span {
+    background: transparent;
+    padding-left: 0;
+    color: #afafaf;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.mainmenu-area li.mega-menu ul li.mega-menu-area .single-mega-item ul li {
+    width: 131px;
+}
+/*Mega menu css end*/
+
 /*Main menu css end*/
 
 /*hero-area css start*/
